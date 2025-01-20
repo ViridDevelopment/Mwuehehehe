@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Cosmic Scripts">
+    <meta property="og:description" content="Cherry Scripts is the best place for safe and reliable scripts, offering a curated selection for your scripting needs. Explore our trusted resources and elevate your experience with confidence.">
+    <meta property="og:image" content="https://images-ext-1.discordapp.net/external/qGKe9MU9eBZyKJThWbwJX7Tbw5DYTjak6XZY09xTLW8/https/cdn.discordapp.com/icons/1231663278984265809/50a1a80573c33f16e4eb156f75472f7d.png">
+    <meta property="og:url" content="https://scripts.aurorasigner.xyz">
+    <meta property="og:type" content="website">
+    <title>Cherry Scripts</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Cherry Scripts</h1>
+        <div class="search-bar">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search scripts..."
+          />
+          <select id="filter-select">
+            <option value="">All</option>
+            <option value="free">Free</option>
+            <option value="paid">Paid</option>
+          </select>
+          <button id="search-button">Search</button>
+        </div>
+      </header>
+      <main>
+        <div id="error-message"></div>
+        <div id="scripts-grid" class="grid"></div>
+        <div class="pagination">
+          <button id="prev-button">Previous</button>
+          <button id="next-button">Next</button>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="credit">
+          <span
+            >Made by
+            <a href="https://discord.gg/cherry-sideloading-tm-ios-x-pc-1231663278984265809" target="_blank"
+              >Cherry Scripts</a
+            ></span
+          >
+          <span>| Powered by Scriptblox API</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <p>&copy; 2024 Cherry Sideloading Team</p>
+      </footer>
+    </div>
+    <div id="script-details-modal" class="modal">
+      <div class="modal-content">
+        <span id="close-modal" class="close">&times;</span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-details"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
