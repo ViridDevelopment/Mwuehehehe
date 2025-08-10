@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(123deg, #800000 10%, #141414 50%);
+    background: linear-gradient(123deg, #420080 10%, #141414 50%);
     color: #ffffff;
 }
 
@@ -18,7 +18,7 @@ header {
 
 header h1 {
     font-size: 2.5em;
-    color: #ff4d4d;
+    color: #7f4dff;
 }
 
 .search-bar {
@@ -109,7 +109,7 @@ header h1 {
     font-size: 1em;
     border-radius: 8px;
     border: none;
-    background-color: #ff4d4d;
+    background-color: #7f4dff;
     color: #000000;
     cursor: pointer;
 }
@@ -167,7 +167,7 @@ header h1 {
 }
 
 .footer a {
-    color: #ff4d4d;
+    color: #7f4dff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -175,3 +175,4 @@ header h1 {
 .footer a:hover {
     color: #ff6666;
 }
+
