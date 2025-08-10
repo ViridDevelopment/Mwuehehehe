@@ -40,14 +40,14 @@ header h1 {
 }
 
 .search-bar button {
-    background-color: #ff3333;
+    background-color: #7f4dff;
     color: #ffffff;
     font-weight: bold;
     cursor: pointer;
 }
 
 .search-bar button:hover {
-    background-color: #ff6666;
+    background-color: #7f4df4;
 }
 
 .grid {
@@ -83,7 +83,7 @@ header h1 {
 .card-title {
     font-size: 1.2em;
     margin: 0 0 10px;
-    color: #ff4d4d;
+    color: #420080;
 }
 
 .card-game {
@@ -144,7 +144,7 @@ header h1 {
 }
 
 .modal-content h2 {
-    color: #ff4d4d;
+    color: #420080;
 }
 
 .close {
@@ -175,4 +175,5 @@ header h1 {
 .footer a:hover {
     color: #ff6666;
 }
+
 
